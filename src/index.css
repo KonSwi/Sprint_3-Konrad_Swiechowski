@@ -2,19 +2,39 @@
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    color: #000000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #0f1013;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  ::placeholder {
+    color: #949191;
+  }
   
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
   body {
     margin: 0;
     display: flex;
     place-items: center;
     justify-content: center;
-    min-width: 20rem;
+    min-width: 30rem;
     min-height: 100vh;
   }
+
+  p {
+    color: #ff0000;
+    display: flex;
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: normal;
+  }
+
