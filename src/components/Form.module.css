@@ -1,0 +1,182 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f1013;
+}
+.personalData {
+  display: flex;
+  flex-direction: column;
+}
+.personalData > label > input {
+  color: #fff;
+}
+.coursePreferences {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+}
+.coursePreferences > label {
+  cursor: pointer;
+  color: #fff;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.coursePreferencesCheckbox {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  background-color: #353f5c;
+  appearance: none;
+  cursor: pointer;
+}
+
+.coursePreferencesCheckbox:checked {
+  appearance: auto;
+}
+
+.courseScope > label {
+  cursor: pointer;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0.1rem 0.6rem;
+}
+
+.courseScope > label:first-child {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.courseScope > label:last-child {
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.addCv > input {
+  background-color: #222222;
+  padding: 0;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #eeb03e;
+  font-weight: bold;
+  gap: 1rem;
+}
+
+/* .experience > input {
+  display: flex
+  ;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.6rem;
+  
+} */
+
+.experienceContainer {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: normal;
+  /* gap: 0; */
+}
+
+.experienceCheckbox {
+  width: 1rem;
+  height: 1rem;
+  background-color: #353f5c;
+  appearance: none;
+  cursor: pointer;
+}
+.experienceCheckbox:checked {
+  appearance: auto;
+}
+
+.form {
+  background: #222222;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0000001a;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.heading {
+  color: #5b9b5b;
+}
+
+label {
+  display: flex;
+  color: #eeb03e;
+  font-weight: bold;
+  gap: 1rem;
+}
+
+.addExperienceContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.experienceDetails {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.experienceDetails > select {
+  color: #fff;
+  background-color: #353f5c;
+  border: none;
+}
+.experienceDetails > button {
+  background-color: #cf1b1b;
+}
+
+input {
+  font-size: 0.8rem;
+  background-color: #353f5c;
+  height: 2rem;
+  padding: 0 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+select {
+  background-color: #0f1013;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+button {
+  padding: 0.6rem;
+  background-color: #007bff;
+  width: 100%;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.addExperience {
+  background-color: #369936;
+}
+
+
+.noErrorLabel {
+  margin-bottom: 1rem;
+}
+.errorLabel {
+  margin-bottom: 0rem;
+}
